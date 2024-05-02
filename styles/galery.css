@@ -1,0 +1,31 @@
+.galery {
+  padding: 12px;
+}
+
+.galery img {
+  width: 100%;
+  height: auto;
+}
+
+.galery__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin-bottom: 21px;
+}
+
+@media (min-width: 1024px) {
+  .galery {
+    padding: 70px;
+  }
+  .galery__wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 78px;
+  }
+
+  .galery__wrap img {
+    width: calc(50% - 25px);
+  }
+  
+}

@@ -1,0 +1,19 @@
+.footer {
+  padding: 35px;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+.footer__text {
+  font-size: 30px;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 35px 70px;
+  }
+
+  .footer__text {
+    font-size: 44px;
+  }
+}

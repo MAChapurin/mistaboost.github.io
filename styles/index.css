@@ -1,0 +1,9 @@
+@import './normalize.css';
+@import './vars.css';
+@import './global.css';
+@import './header.css';
+@import './hero.css';
+@import './about.css';
+@import './faq.css';
+@import './galery.css';
+@import './footer.css';

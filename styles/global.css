@@ -1,0 +1,63 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Long Cang";
+  src: url('../assets/fonts/LongGang/LongGang.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Just Me Again Down Here";
+  src: url('../assets/fonts/JustMeAgainDownHere/JustMeAgainDownHere-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Long Cang", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .desktop {
+    display: inline-block;
+  }
+}
